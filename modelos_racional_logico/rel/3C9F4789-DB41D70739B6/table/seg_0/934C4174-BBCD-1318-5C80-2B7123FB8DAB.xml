@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="934C4174-BBCD-1318-5C80-2B7123FB8DAB" name="UserDevice">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>C9B94895-CC5E-E7F8-89FB-A8A83E84A51C</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userId" id="4DCDA4FD-D8D7-B223-AE49-B0CF1A2AB199">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>6A03FA84-E4BC-DC73-3EBE-5A21D3E65481</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2258F376-0BAB-6CB7-CEC4-E01590CAC3DB" referredColumn="4A592A28-7827-B45A-F14C-C23727275B18"/>
+</associations>
+</Column>
+<Column name="deviceId" id="1BA6F0FF-021A-E327-3DFC-C4977609BA83">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>1F04FB0F-2922-DC98-1367-013FCB8A8752</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78DABC43-ED26-9251-A2E7-5FEE3532B3C9" referredColumn="6A902141-8473-D402-055A-B900B41A821D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A649583-71F4-4B5F-0AAD-194F70E6BDE8" name="UserDevice_PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>5FAE242B-46FB-7C5F-4A4E-2EE271B4E446</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DCDA4FD-D8D7-B223-AE49-B0CF1A2AB199"/>
+<colUsage columnID="1BA6F0FF-021A-E327-3DFC-C4977609BA83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85C0D446-EE7B-764E-2B31-22CA6E04B34B" name="UserDevice_User_FK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>9700177C-BD50-7E5E-C4A2-AA55EDA6A629</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DCDA4FD-D8D7-B223-AE49-B0CF1A2AB199"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6F050A-F526-3DDE-54CE-B2FE46271EAA" name="UserDevice_Device_FK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>400C3458-7B52-5F3E-E9C4-150862AC78BE</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BA6F0FF-021A-E327-3DFC-C4977609BA83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

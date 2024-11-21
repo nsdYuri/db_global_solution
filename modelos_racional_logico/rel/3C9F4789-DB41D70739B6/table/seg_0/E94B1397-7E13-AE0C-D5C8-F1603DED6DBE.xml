@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E94B1397-7E13-AE0C-D5C8-F1603DED6DBE" name="DeviceInfo">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>F7B57DD7-CBF8-FFA8-ED69-E3EECDE822C8</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7BF94820-81D9-ED15-0C7D-C198E97A7211">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>9B777AF7-5B57-3EE5-22A4-BC8FC80AFC2A</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voltage" id="5A3D7461-3D77-A02A-D58C-9B417FD9E4C0">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>301FA287-7FF2-8F07-075D-48BF6F417276</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="energyLevel" id="08DB2C41-E507-614C-68B1-D35875D80B7A">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>34ED378D-C824-D47B-7E39-404BFC6DEDCB</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D719D44-80D5-3392-596C-C75DCBB1D8B6" name="DeviceInfo_PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>40C1C02C-743C-8556-20E6-2155766F095D</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF94820-81D9-ED15-0C7D-C198E97A7211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

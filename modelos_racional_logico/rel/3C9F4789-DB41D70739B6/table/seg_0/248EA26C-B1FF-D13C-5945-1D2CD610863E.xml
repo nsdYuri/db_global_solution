@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="248EA26C-B1FF-D13C-5945-1D2CD610863E" name="UserGroup">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>DF643322-89FA-5325-B623-2356D9D514F8</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="40E18A58-471F-2C3B-BD92-4A5902E1D206">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>31CAE531-0BD4-FA27-4A3B-F644DD276268</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="443022F0-8BCB-FA3C-D793-425E331BAE24">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>C5B1ADC2-FF21-9EA0-4A92-A6283BB10B62</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isActive" id="A2DA33A4-D8BA-DDC4-2F70-2A82EA698C30">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>A41C8D86-BAA0-B400-CCEF-A3415E6B7B98</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="125F198E-8B36-DC05-50C2-E51AAF5DE29F" name="UserGroup_PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:48:03 UTC</createdTime>
+<generatorID>2DBD5522-6EFC-0516-C5C2-F3DE37CA4AB2</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40E18A58-471F-2C3B-BD92-4A5902E1D206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

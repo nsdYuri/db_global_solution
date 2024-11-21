@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF5D9202-DB44-5C36-370C-7F9C77016075" name="Device">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:57:31 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2A073464-2FB3-B61D-066C-303CCAAC7015">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:57:43 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="0BB1E02F-82D0-8DDD-7558-6C6AADCD6095">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:57:51 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deviceInfoId" id="38450EA6-2D95-73E5-1257-B0CBA0EA3F16">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:01:40 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="235A9A77-0C7B-95E3-9ACA-37FF425A8A41">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:36:12 UTC</createdTime>
+<generatorID>A2F1CF29-4589-6475-112D-579905CD3864</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<referedAttribute>9B777AF7-5B57-3EE5-22A4-BC8FC80AFC2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DEE8461-1EBA-C9F7-61D4-41C0F21A1CF0" name="Device PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:57:50 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A073464-2FB3-B61D-066C-303CCAAC7015</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

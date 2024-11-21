@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F5C8ECB-9DE3-DEC7-6178-AD07EA09CA4D" name="User">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:53:55 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FC89F1A3-0A96-C5E1-0160-61DCF61BBA14">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:54:01 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="3C93E78C-80E8-5941-BAAF-D179D319DE5D">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:54:12 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="5005BD6E-267A-5FA1-16DD-B5680B059110">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:54:41 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4161BFF5-A42B-18A0-6306-C8B509FCF557">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:54:50 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="B26D4799-EA34-6C05-65BD-652EAA629818">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:55:07 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isActive" id="EFA7EA59-34FB-A4CD-50BB-E541AC3E2326">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:55:23 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="userAddressId" id="8E291B04-6698-42C5-89BB-2CD638EF138B">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:02:16 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="userGroupId" id="8C9883D6-BEA9-2813-E826-45D59B62DEDA">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:00:42 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="624557BF-9FD0-E855-9050-5BAF303A2A8B">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:04:19 UTC</createdTime>
+<generatorID>6163AC8A-C93D-9BD1-E28F-E7339F9412F2</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<referedAttribute>31CAE531-0BD4-FA27-4A3B-F644DD276268</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="0314AA76-6942-009C-E440-1F509B2D62FE">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 06:34:03 UTC</createdTime>
+<generatorID>706DB419-3041-CED7-EFB1-ED131816D2D4</generatorID>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<referedAttribute>891B7FF2-02D0-EECC-AA9C-37AE829E9070</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8ABC388E-DD42-70A7-B0BC-EBB2B1805FC0" name="User PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:54:10 UTC</createdTime>
+<ownerDesignName>modelos_racional_logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC89F1A3-0A96-C5E1-0160-61DCF61BBA14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
