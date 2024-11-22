@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3886F09F-4950-758E-D6CE-EEF78C1FAED6" name="UserGroup">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>DF643322-89FA-5325-B623-2356D9D514F8</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DDF73CDC-F8AD-5FEF-41A8-40B223D00C6B">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>31CAE531-0BD4-FA27-4A3B-F644DD276268</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2EE0466B-2FA7-D7FF-8ABD-1B4991F1D049">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>C5B1ADC2-FF21-9EA0-4A92-A6283BB10B62</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isActive" id="3033BEC5-B640-1B97-781C-2AF2D003FA17">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>A41C8D86-BAA0-B400-CCEF-A3415E6B7B98</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD515A32-B70A-A5A9-69B0-4DD6D905B261" name="UserGroup_PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>2DBD5522-6EFC-0516-C5C2-F3DE37CA4AB2</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDF73CDC-F8AD-5FEF-41A8-40B223D00C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

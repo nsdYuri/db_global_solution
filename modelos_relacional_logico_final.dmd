@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelos_relacional_logico_final" id="CA5D7600-B785-ECA0-60AA-E102CAB107D7" version="3.5">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:46:10 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CA5D7600-B785-ECA0-60AA-E102CAB107D7</designId>
+</OSDM_Design>

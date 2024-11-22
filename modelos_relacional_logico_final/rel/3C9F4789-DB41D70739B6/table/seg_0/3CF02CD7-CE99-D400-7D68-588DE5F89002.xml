@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF02CD7-CE99-D400-7D68-588DE5F89002" name="UserAddres">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>4F422131-BE12-66F0-928E-556C873FBFD9</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A191D221-C7D9-0BE3-02EB-7AF272EB0E1A">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>891B7FF2-02D0-EECC-AA9C-37AE829E9070</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="E1D8E331-955A-EB03-B0BC-344893339339">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>5F5EEE63-D55E-373B-7747-C89F6D22CC3D</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number" id="2780D620-D5B6-E43B-36E5-DF5E1AD80614">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>2956785A-8100-BE9A-C03D-242210D9ECCE</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="neighborhood" id="7D76E2DA-6241-5322-C45C-908F5F8F39E1">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>23F21367-FF98-6B26-4AB1-D0AE645EC60A</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zipCode" id="F8790329-1B2E-DCFA-2459-69D7A09BA5C9">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>8A75741E-0332-B7E5-48C0-BA4D9C2BFC7F</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7200B9BB-9600-4278-3960-979F1DF2AB0E" name="UserAddres_PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-22 00:33:06 UTC</createdTime>
+<generatorID>8BA94EE3-6E82-AED4-DFA3-0DCAACA31704</generatorID>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A191D221-C7D9-0BE3-02EB-7AF272EB0E1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

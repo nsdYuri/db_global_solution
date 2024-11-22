@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF643322-89FA-5325-B623-2356D9D514F8" name="UserGroup">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:58:03 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="31CAE531-0BD4-FA27-4A3B-F644DD276268">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:58:14 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="C5B1ADC2-FF21-9EA0-4A92-A6283BB10B62">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:58:21 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isActive" id="A41C8D86-BAA0-B400-CCEF-A3415E6B7B98">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:58:33 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2DBD5522-6EFC-0516-C5C2-F3DE37CA4AB2" name="UserGroup PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:58:21 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31CAE531-0BD4-FA27-4A3B-F644DD276268</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

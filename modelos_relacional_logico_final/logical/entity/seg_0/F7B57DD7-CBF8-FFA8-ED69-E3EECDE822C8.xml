@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7B57DD7-CBF8-FFA8-ED69-E3EECDE822C8" name="DeviceInfo">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:58:56 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9B777AF7-5B57-3EE5-22A4-BC8FC80AFC2A">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:59:04 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="voltage" id="301FA287-7FF2-8F07-075D-48BF6F417276">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:59:11 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="energyLevel" id="34ED378D-C824-D47B-7E39-404BFC6DEDCB">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:59:45 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40C1C02C-743C-8556-20E6-2155766F095D" name="DeviceInfo PK">
+<createdBy>yuric</createdBy>
+<createdTime>2024-11-21 05:59:11 UTC</createdTime>
+<ownerDesignName>modelos_relacional_logico_final</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3C9F4789-D4B3-E9F3-59E3-DB41D70739B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B777AF7-5B57-3EE5-22A4-BC8FC80AFC2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
